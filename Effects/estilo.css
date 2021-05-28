@@ -1,0 +1,70 @@
+.principal {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 100px;
+}
+
+.datos {
+  background-color: #363457;
+}
+
+.imagen img {
+  margin: 20px;
+  margin-left: 30px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: 0.5s;
+  user-select: none;
+  filter: grayscale();
+}
+
+.imagen img:hover {
+  filter: none;
+  transform: scale(1.1);
+  transition: ease-in-out 1.2s 0s;
+}
+
+hr {
+  size: 30px;
+  /*color: whitesmoke;*/
+}
+
+a {
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+a:hover {
+  font-size: 20px;
+}
+
+.obscuro {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.sep-izq {
+  width: 50%;
+  color: whitesmoke;
+}
+
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.experience {
+  text-align: center;
+}
+
+.date {
+  margin: 30px;
+  padding-top: 45px;
+  text-align: center;
+}
